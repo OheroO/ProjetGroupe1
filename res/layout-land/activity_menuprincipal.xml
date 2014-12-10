@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A4554"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MenuPrincipal" >
+
+    <Button
+        android:id="@+id/reserver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gestReserver"
+        android:text="Réserver un vélo" />
+
+    <Button
+        android:id="@+id/mesReservations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:onClick="gestMesReservations"
+        android:text="Mes réservations" />
+
+    <Button
+        android:id="@+id/deconnexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="92dp"
+        android:onClick="gestDeconnexion"
+        android:text="Se deconnecter" />
+
+    <Button
+        android:id="@+id/localiser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/reserver"
+        android:layout_alignBottom="@+id/reserver"
+        android:layout_alignLeft="@+id/deconnexion"
+        android:onClick="gestLocalisation"
+        android:text="Se localiser" />
+
+</RelativeLayout>

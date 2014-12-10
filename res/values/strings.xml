@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Connexion</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="connect">Connexion</string>
+    <string name="username">Utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="Login">Login</string>
+    <string name="inscription">Inscription</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu_principal">Menu_principal</string>
+    <string name="title_activity_inscription">Inscription</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="email">Email</string>
+    <string name="contrainteUnique">Email ou pseudo déjà utilisé</string>
+
+    <string-array name="option_array">
+        <item>Accueil</item>
+        <item>Mes réservations</item>
+        <item>Réserver un vélo</item>
+        <item>Me localiser</item>
+    </string-array>
+
+    <string name="title_activity_reserver">Reserver</string>
+    <string name="title_activity_affichage_site">AffichageSite</string>
+    <string name="title_activity_affiche_site">AfficheSite</string>
+    <string name="title_activity_reservation">Reservation</string>
+
+</resources>

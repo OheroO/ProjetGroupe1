@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.projet_villo.Inscription" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="466dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#3A4554"
+     >
+
+    <Button
+        android:id="@+id/buttonInscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:hint="@string/inscription"
+        android:onClick="gestInscription" />
+
+    <EditText
+        android:id="@+id/editPseudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:ems="10"        
+        android:hint="@string/pseudo"  />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editPseudo"
+        android:layout_below="@+id/editPseudo"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/password" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editPassword"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
+
+    <EditText
+        android:id="@+id/editNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEmail"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginTop="28dp"
+        android:ems="10" 
+        android:hint="@string/nom"/>
+
+    <EditText
+        android:id="@+id/editPrenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editNom"
+        android:layout_below="@+id/editNom"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/prenom" />
+
+</RelativeLayout>
+</ScrollView>

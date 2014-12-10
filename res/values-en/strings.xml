@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+
+   <string name="app_name">Connect</string>
+   <string name="action_settings">Setting</string>
+   <string name="connect">Connect</string>
+   <string name="username">User </string>
+   <string name="password">Password </string>
+   <string name="inscription">Inscription</string>
+	<string name="nom">Name</string>
+    <string name="prenom">Firstname</string>
+
+    
+</resources>
